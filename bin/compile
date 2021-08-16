@@ -17,7 +17,7 @@ CACHE_DIR=${2:-}
 ENV_DIR=${3:-}
 BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
-print "Workdir: ${WORKDIR}"
+print "Workdir: $WORKDIR"
 cd $WORKDIR
 
 ### Load dependencies
